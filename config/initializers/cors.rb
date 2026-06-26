@@ -7,7 +7,7 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
         credentials: true
     end
     allow do
-        origins 'https://supercarsrentals.onrender.com'
+        origins 'https://rental-rkib.onrender.com'
         resource '*',
           headers: :any,
           methods: [:get, :post, :put, :patch, :delete, :options, :head],
